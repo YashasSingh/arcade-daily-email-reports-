@@ -1,0 +1,6 @@
+This is a sample daily report.
+It contains various details about the day's activities and achievements.
+- Item 1: Description of the first item.
+- Item 2: Description of the second item.
+- Summary: This is the summary of the daily report.
+    

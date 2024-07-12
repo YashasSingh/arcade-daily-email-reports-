@@ -3,6 +3,13 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 import os
+from transformers import pipeline
+
+def condense_report(content):
+    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    summary = summarizer(content, max_length=150, min_length=40, do_sample=False)
+    return summary[0]['summary_text']
+
 
 def send_email_report(subject, body, to_emails, attachment_path=None):
     # Email configuration
