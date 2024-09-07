@@ -1,0 +1,5 @@
+transformers
+smtplib3 # This can vary based on the email library, but smtplib is part of the Python standard library so it may not require installation.
+email # Part of the Python standard library
+logging # Part of the Python standard library
+python-dotenv
