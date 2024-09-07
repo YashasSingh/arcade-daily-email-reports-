@@ -1,6 +1,7 @@
 # Automated Daily Email Report
-
+![Screenshot 2024-08-22 205746](https://github.com/user-attachments/assets/ab0eff18-b68b-4a0b-bd8e-79c21a56dd95)
 ## Overview
+
 
 The Automated Daily Email Report project simplifies the process of summarizing and emailing daily reports. Using Python and Natural Language Processing (NLP), it condenses lengthy reports into key highlights and sends them via email to specified recipients.
 
